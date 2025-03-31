@@ -14,10 +14,10 @@ export default function Navbar() {
 function Name() {
     return (
         <div>
-            <div className="text-sm font-bold font-mono sm:text-3xl">
+            <div className="text-sm font-bold font-mono sm:text-3xl text-white">
                 Niranjan.
             </div>
-            <div className="text-xs sm:text-sm font-mono flex items-center gap-1 ">
+            <div className="text-xs sm:text-sm font-mono flex items-center gap-1 text-white ">
                 <PlusIcon />
                 progsolos@gmail.com
             </div>
@@ -34,7 +34,7 @@ function Links() {
                         "_blank"
                     )
                 }}
-                className="flex items-center sm:text-xl font-mono gap-1 hover:underline underline-offset-4 cursor-pointer text-xs "
+                className="flex items-center sm:text-xl font-mono gap-1 hover:underline underline-offset-4 cursor-pointer text-xs text-white"
             >
                 Github <ArrowIcon />
             </div>
@@ -45,7 +45,7 @@ function Links() {
                         "_blank"
                     )
                 }}
-                className="flex items-center sm:text-xl font-mono gap-1 hover:underline underline-offset-4 cursor-pointer text-xs"
+                className="flex items-center sm:text-xl font-mono gap-1 hover:underline underline-offset-4 cursor-pointer text-xs text-white"
             >
                 Resume <ArrowIcon />
             </div>

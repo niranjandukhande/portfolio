@@ -20,21 +20,21 @@ const EDUCATION = [
 export default function Education() {
     return (
         <div className="">
-            <div className=" font-mono flex justify-center items-center pb-4 sm:text-2xl font-bold border-b-2 mb-4 text-lg">
+            <div className=" font-mono flex justify-center items-center pb-4 sm:text-2xl font-bold border-b-2 mb-4 border-b-white text-lg text-white">
                 Education
             </div>
             <div>
                 {EDUCATION.map((item, index) => (
                     <div key={index} className="sm:w-full w-80">
                         <div className="font-mono mb-4">
-                            <h1 className="sm:text-xl flex items-center cursor-pointer text-sm">
+                            <h1 className="sm:text-xl flex items-center cursor-pointer text-sm text-white">
                                 <div className="pr-2">
                                     <CircleIcon />
                                 </div>
                                 {item.degreeName}
                             </h1>
-                            <p className="cursor-pointer sm:text-lg text-xs">
-                                <span className="underline underline-offset-4">
+                            <p className="cursor-pointer sm:text-lg text-xs text-white">
+                                <span className="underline underline-offset-4 text-white">
                                     {item.collegeName}
                                 </span>
                                 , {item.location}, {item.year}.
