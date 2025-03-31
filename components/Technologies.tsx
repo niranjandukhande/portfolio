@@ -18,10 +18,10 @@ const TECHNOLOGIES = [
 export default function Technologies() {
     return (
         <div className="sm:w-full w-80 font-mono">
-            <div className=" font-mono flex justify-center items-center pb-4 sm:text-2xl font-bold border-b-2 mb-4 text-lg">
+            <div className=" font-mono flex justify-center items-center pb-4 sm:text-2xl font-bold border-b-2 mb-4 text-lg border-b-white text-white">
                 Technologies
             </div>
-            <h1 className="font-mono sm:text-xl text-lg flex items-center m-4">
+            <h1 className="font-mono sm:text-xl text-lg flex items-center m-4 text-white">
                 <div className="pr-2">
                     <CircleIcon />
                 </div>
@@ -37,7 +37,7 @@ export default function Technologies() {
                     </div>
                 ))}
             </div>
-            <h1 className="font-mono sm:text-xl text-lg flex items-center m-4">
+            <h1 className="font-mono sm:text-xl text-lg flex items-center m-4 text-white">
                 <div className="pr-2">
                     <CircleIcon />
                 </div>
