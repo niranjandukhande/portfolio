@@ -17,7 +17,7 @@ function Name() {
             <div className="text-sm font-bold font-mono sm:text-3xl">
                 Niranjan.
             </div>
-            <div className="text-sm font-mono flex items-center gap-1 ">
+            <div className="text-xs sm:text-sm font-mono flex items-center gap-1 ">
                 <PlusIcon />
                 progsolos@gmail.com
             </div>
@@ -40,7 +40,10 @@ function Links() {
             </div>
             <div
                 onClick={() => {
-                    window.open("https://www.google.com", "_blank")
+                    window.open(
+                        "https://drive.google.com/file/d/1X7wDLd9dFumQhHuEpIo9WNN03ZgkAEqD/view?usp=sharing",
+                        "_blank"
+                    )
                 }}
                 className="flex items-center sm:text-xl font-mono gap-1 hover:underline underline-offset-4 cursor-pointer text-xs"
             >
