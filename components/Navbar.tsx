@@ -38,7 +38,7 @@ function Links() {
       <div
         onClick={() => {
           window.open(
-            "https://drive.google.com/file/d/1sCzNdGJnj3n_kfEJTbde2c03K5hmIgto/view?usp=sharing",
+            "https://drive.google.com/file/d/1p5K1OHRoQpP5iaUTHLdCfeywTu7zdkTO/view?usp=sharing",
             "_blank"
           )
         }}
